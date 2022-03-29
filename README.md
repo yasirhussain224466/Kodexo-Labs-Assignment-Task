@@ -13,7 +13,7 @@ Assalam o Alykum!
 In this task or Assignment, I had to show the product listing cards on page, let's suppose I have to design an E-commerce web app in which the seller is listing his/her product in web app. so that the request hits like a post request to the RESTAPI and we just post the data in API. when we want to get all products and use get request from API so we generally use Map Function for this purpose.
 in this task, I used Material UI. Library just because I am used to designing and creating a component through MUI.   
 
-The second thing is the simplyrets API. I created a function getListing() in this function I defined a variable const URL, username, password, listingskey, cacheTimeKey, stale cache
+The second thing is the simplyrets API. I created a function getListing() in this function I defined variables like const URL, username, password, listingskey, cacheTimeKey, stale cache
 now we just checked if nothing is set in localStorage so that we just set the header like Authorization, Basic, and username and password this function returns a method GET and headers and then just resolve the promise i.e fetch, then we just returned the data i.e we resolved first. then the else part is executed if items in localStorage then simply return a promise which we are just resolving in the else block and call the getItem function.
 
 then I use useEffect, useState react hooks, which I am calling the get method, and then get the data from the locatStorage. also set it through useState hook.
