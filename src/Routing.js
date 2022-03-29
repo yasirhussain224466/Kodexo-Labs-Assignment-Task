@@ -7,7 +7,6 @@ const Routing = () => {
     <>
       <Routes>
         <Route path="/" exact element={<Product/>} />
-        hello
       </Routes>
     </>
   );
