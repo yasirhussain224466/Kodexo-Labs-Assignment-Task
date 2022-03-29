@@ -10,7 +10,7 @@
 
 Assalam o Alykum!
 
-In this task or Assignment, we had to make product listing cards on one page, let's suppose we have to design an E-commerce web app in which the seller is listing our product in a web app. so that the request hits like a post request to the API and we just post the data in API. when we want to get all products from API so we generally use Map Function for this purpose.
+In this task or Assignment, I had to show the product listing cards on page, let's suppose I have to design an E-commerce web app in which the seller is listing our product in a web app. so that the request hits like a post request to the API and we just post the data in API. when we want to get all products and use get request from API so we generally use Map Function for this purpose.
 in this task, I used Material UI. Library just because I am used to designing and creating a component through MUI.   
 
 The second thing is the simplyrets API. I created a function getListing() in this function I defined a variable const URL, username, password, listingskey, cacheTimeKey, stale cache
